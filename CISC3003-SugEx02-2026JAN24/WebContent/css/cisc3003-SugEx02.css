@@ -1,0 +1,86 @@
+section {
+  background-color: #FF8D8D;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2vw 8vw 1vw 8vw;
+  float: center;
+}
+header {
+  background-color: #333;
+  font-style: italic;
+  padding: 0px 3vw 0px 3vw;
+}
+footer {
+  clear: both;
+  background-color: #333;
+  color: #FFF;
+  padding: 6px 0px 6px 3vw;
+}
+div.container {
+  background-color: #FF8D8D;
+}
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+#email {
+  font-style: italic;
+  text-decoration: underline;
+}
+h1 {
+  background-color: #FFF;
+  color: #EE6044;
+  text-align: center;
+}
+h3, dt {
+  font-style: oblique;
+  font-weight: lighter;
+  font-size: 20px;
+  padding: 0px 0px 0px 16px;
+}
+p {
+  padding: 0px 16px 0px 16px;
+}
+em {
+  clear: none;
+  text-shadow: 5px 3px 2px #FF8F8F;
+}
+p.quote {
+  font-style: oblique;
+}
+img {
+  clear: both;
+  width: 100%;
+  height: auto;
+}
+img.art{
+  padding: 3% 25% 3% 25%;
+  width: 50%;
+  height: auto;
+  border: 5px solid #333; /* Shorthand: width style color */
+  border-radius: 10px;
+}
+img.personal {
+  float: right;
+  width: 40%;
+  height: auto;
+  border-radius: 50%; 
+  border: 3px solid #FFF;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.5vw;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
