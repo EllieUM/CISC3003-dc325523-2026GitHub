@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+   <meta charset="utf-8">
+   <title>CISC3003: Practice 04</title>
+   <link rel="stylesheet" href="css/reset.css" />
+   <link rel="stylesheet" href="css/cisc3003-practice04.css" />
+</head>
+<body>
+<header>
+     <h1>Share Your Travels</h1>
+     <p>let us know where you've been</p>
+</header>
+<main>
+   <section>
+   <h4>PHOTO DETAILS</h4>
+     <form action="/process.php">
+     <div>
+       <p>Title</p>
+       <input type="text" placeholder="Give your photo a descriptive name" /><br>
+       
+       <p>Description</p>
+       <textarea name="description" rows="5" cols="61" placeholder="Adding a rich description will help with search results"></textarea>
+     </div>
+     
+     <div>
+       <p>Continent</p>
+       <select>
+         <option value="0">Choose continent</option>
+         <option value="1">Africa</option>
+         <option value="2">Asia</option>
+         <option value="3">Europe</option>
+         <option value="4">North America</option>
+         <option value="5">South America</option>
+       </select><br>
+       
+       <p>Country</p>
+       <select>
+         <option value="0">Choose country</option>
+         <option value="1">Canada</option>
+         <option value="2">Mexico</option>
+         <option value="3">United States</option>
+       </select><br>
+       
+       <p>City</p>
+       <select>
+         <option value="0">Choose city</option>
+         <option value="1">Calgary</option>
+         <option value="2">Montreal</option>
+         <option value="3">Toronto</option>
+         <option value="4">Vancouver</option>
+       </select><br>
+     </div>
+     
+     <div>
+       <p>Copyright?</p>
+       <input type="radio" name ="cc[ ]" value="1">All rights reserved <br/>
+	   <input type="radio" name ="cc[ ]" value="2">Creative Commons <br/>
+  	     
+  	   <p>Creative Commons Types</p>
+  	   <input type="checkbox" name ="cc[ ]" value="1">Attribution <br/>
+	   <input type="checkbox" name ="cc[ ]" value="2">Noncommerical <br/>
+	   <input type="checkbox" name ="cc[ ]" value="3">No Derivative Works <br/>
+  	</div>
+    <div class="div">
+  	   <label>I accept the software license</label>
+  	   <input type="checkbox"><br>
+     </div>
+     
+     <div>
+       <p>Rate this photo</p>
+       <input type="number" min="1" max="5" name="rate" /><br/>
+       
+       <label>Color Collection</label><br>
+	     <input type="color"  name="color" />
+	 </div>
+	 
+	 <div>
+	   <p>Date Taken</p>
+	   <input type="date"  name="date" />
+	   
+	   <p>Time Taken</p>
+	   <input type="time"  name="time" /><br/>
+	 </div>
+	 
+	 <div class="div">
+	   <input type="submit" value="Submit" class="rounded">
+	   <input type="reset" value="Clear Form" class="rounded">
+	 </div>
+	 
+     </form>
+   </section>
+</main>  
+
+
+</body>
+</html>
