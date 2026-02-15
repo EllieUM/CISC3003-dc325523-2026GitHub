@@ -1,0 +1,97 @@
+section {
+  background-color: #FF8D8D;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2vw 8vw 1vw 8vw;
+  float: center;
+}
+header {
+  background-color: #333;
+  font-style: italic;
+  padding: 0px 3vw 0px 3vw;
+}
+footer {
+  clear: both;
+  background-color: #333;
+  color: #F8F9FA;
+  padding: 6px 0px 6px 3vw;
+}
+div.container {
+  background-color: #FF8D8D;
+}
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px 0;
+}
+.card {
+  background-color: #F8F9FA;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  flex: 1;
+  min-width: 250px;
+}
+.card dt {
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  border-bottom: 2px solid #E74C3C;
+  padding-bottom: 5px;
+} 
+.card dd {
+  margin-left: 0;
+  margin-bottom: 8px;
+  padding: 0px 0px 0px 16px;
+  position: relative;
+}
+.card dd:before {
+  content: "•";
+  color: #E74C3C;
+  position: absolute;
+  left: 0;
+}
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+h1 {
+  background-color: #F8F9FA;
+  color: #E74C3C;
+  text-align: center;
+}
+h3, dt {
+  font-style: oblique;
+  font-weight: lighter;
+  font-size: 20px;
+  padding: 0px 0px 0px 16px;
+}
+p {
+  padding: 0px 16px 0px 16px;
+}
+em {
+  clear: none;
+  text-shadow: 5px 3px 2px #FF8F8F;
+}
+p.quote {
+  font-style: oblique;
+}
+img {
+  clear: both;
+  width: 100%;
+  height: auto;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: #F8F9FA;
+}
+.centered {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.5vw;
+}
