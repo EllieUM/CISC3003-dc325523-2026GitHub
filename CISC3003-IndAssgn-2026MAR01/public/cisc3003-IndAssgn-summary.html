@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	   <meta charset="UTF-8">
+	   <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+	   <meta name="viewport" content="width=device-width, intial-scale=1.0">
+	   <title>My Summary</title>
+	   <link rel="stylesheet" href="css/cisc3003-IndAssgn.css">
+	</head>
+	<body>
+		<nav id="desktop-nav">
+			<div class="logo">Lam Cheng Io | Summary</div>
+			<div>
+				<ul class="nav-links">
+					<li><a href="cisc3003-IndAssgn-home.html">Home</a></li>
+					<li><a href="cisc3003-IndAssgn-profile.html">Profile</a></li>
+					<li><a href="cisc3003-IndAssgn-summary.html">Summary</a></li>
+					<li><a href="cisc3003-IndAssgn-showcase.html">Showcase</a></li>
+					<li><a href="cisc3003-IndAssgn-qualification.html">Qualification</a></li>
+				</ul>
+			</div>
+		</nav>
+		<nav id="hamburger-nav">
+			<div class="logo">Lam Cheng Io | Summary</div>
+			<div class="hamburger-menu">
+				<div class="hamburger-icon" onclick="toggleMenu()">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="menu-links">
+					<ul>
+						<li><a href="cisc3003-IndAssgn-home.html" onclick="toggleMenu()">Home</a></li>
+						<li><a href="cisc3003-IndAssgn-profile.html" onclick="toggleMenu()">Profile</a></li>
+						<li><a href="cisc3003-IndAssgn-summary.html" onclick="toggleMenu()">Summary</a></li>
+						<li><a href="cisc3003-IndAssgn-showcase.html" onclick="toggleMenu()">Showcase</a></li>
+						<li><a href="cisc3003-IndAssgn-qualification.html" onclick="toggleMenu()">Qualification</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<section id="goals">
+			<p class="section_text_p1">My Intended Learning Outcomes</p>
+			<h1 class="title">Goals</h1>
+			<div class="about-detials-container">
+				<div class="about-containers">
+					<div class="details-container">
+						<img src="./images/icon/education.png" alt="Education icon" class="icon">
+						<h3 class="container-text">JLPT N3 Certification</h3>
+						<p class="container-text">Archive JLPT N3 certification in Japanese before expected graduation</p>
+					</div>
+					<div class="details-container">
+						<img src="./images/icon/stem.png" alt="Experience icon" class="icon">
+						<h3 class="container-text">CS Employment Focus</h3>
+						<p class="container-text">Explore areas of interest for computer science employment and focus on the relevant expertise</p>
+					</div>
+					<div class="details-container">
+						<img src="./images/icon/time.png" alt="Time icon" class="icon">
+						<h3 class="container-text">Personal Website</h3>
+						<p class="container-text">Launch a personal website showcasing both technical and creative work</p>
+					</div>
+				</div>
+			</div>
+			<img src="./images/icon/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#planning'">
+		</section>
+		<section id="planning">
+			<p class="section_text_p1">My Personal/Professional</p>
+			<h1 class="title">Development Planning</h1>
+			<div class="about-detials-container">
+				<div class="about-containers">
+					<div class="details-container">
+						<img src="./images/icon/education.png" alt="Education icon" class="icon">
+						<h3 class="container-text">Weekly</h3>
+						<p class="container-text">My own website development</p>
+					</div>
+					<div class="details-container">
+						<img src="./images/icon/stem.png" alt="Experience icon" class="icon">
+						<h3 class="container-text">Monthly</h3>
+						<p class="container-text">Art commission development</p>
+					</div>
+					<div class="details-container">
+						<img src="./images/icon/time.png" alt="Time icon" class="icon">
+						<h3 class="container-text">Quarterly</h3>
+						<p class="container-text">Personal & Band social media development</p>
+					</div>
+				</div>
+			</div>
+			<img src="./images/icon/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#directions'">
+		</section>
+		<section id="directions">
+			<p class="section_text_p1">My Reflection</p>
+			<h1 class="title">Future Directions</h1>
+			<div class="about-detials-container">
+				<div class="about-containers">
+					<div class="details-container">
+						<img src="./images/icon/education.png" alt="Education icon" class="icon">
+						<h3 class="container-text">My guiding principle</h3>
+						<p class="container-text">"Stay curious, stay connected, and keep creating bridges between seemingly separate worlds."</p>
+					</div>
+				</div>
+				<div class="text-container">
+					<p>Looking back, I found that the most valuable insights all came from various intersections: how teaching programming improved my own coding clarity, how studying design identifies the evolving parts, how the overall performance in teamwork revealed the team collaboration patterns in group projects.</p>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<nav>
+				<div class="nav-links-container">
+					<ul class="nav-links">
+						<li><a href="cisc3003-IndAssgn-home.html">Home</a></li>
+						<li><a href="cisc3003-IndAssgn-profile.html">Profile</a></li>
+						<li><a href="cisc3003-IndAssgn-summary.html">Summary</a></li>
+						<li><a href="cisc3003-IndAssgn-showcase.html">Showcase</a></li>
+						<li><a href="cisc3003-IndAssgn-qualification.html">Qualification</a></li>
+					</ul>
+				</div>
+			</nav>
+			<p>Copyright &#169; 2026 Lam Cheng Io. All Rights Reserved.</p>
+			<p>CISC3003 Web Programming - 2025: DC325523 + Lam Cheng Io</p>
+		</footer>
+		<script>
+			function toggleMenu() {
+				const menu = document.querySelector(".menu-links");
+				const icon = document.querySelector(".hamburger-icon");
+				menu.classList.toggle("open");
+				icon.classList.toggle("open");
+			}
+		</script>
+	</body>
+</html>
