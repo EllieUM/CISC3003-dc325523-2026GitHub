@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	   <meta charset="UTF-8">
+	   <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+	   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	   <title>Ellie's Portfolio</title>
+	   <link rel="stylesheet" href="css/cisc3003-Ellie-home.css">
+	</head>
+	<body>
+		<nav id="desktop-nav">
+			<div class="logo">Lam Cheng Io</div>
+			<div>
+				<ul class="nav-links">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<nav id="hamburger-nav">
+			<div class="logo">Lam Cheng Io</div>
+			<div class="hamburger-menu">
+				<div class="hamburger-icon" onclick="toggleMenu()">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="menu-links">
+					<ul>
+						<li><a href="#home" onclick="toggleMenu()">Home</a></li>
+						<li><a href="#about" onclick="toggleMenu()">About</a></li>
+						<li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+						<li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<section id="home">
+			<div class="section_pic-container">
+				<img src="./images/profile1.jpg" alt="Lam Cheng Io profile picture">
+			</div>
+			<div class="section_text">
+				<p class="section_text_p1">Hello, I'm</p>
+				<h1 class="title">Lam Cheng Io</h1>
+				<p class="section_text_p2">Welcome to my personal website!</p>
+				<div class="btn-container">
+					<button class="btn btn-color-2" onclick="window.open('./LamChengIo_CV.pdf')">Download CV</button>
+					<button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+				</div>
+				<div id="social-container">
+				    <img src="./images/icon/mail.png" alt="Email" class="icon" onclick="location.href='mailto:dc32552@um.edu.mo'">
+				    <img src="./images/icon/instagram.png" alt="Instagram" class="icon" onclick="location.href='https://www.instagram.com/cheng_qupz_/'">
+				    <img src="./images/icon/X.png" alt="X" class="icon" onclick="location.href='https://x.com/cheng_qupz_'">
+				    <img src="./images/icon/github.png" alt="Github" class="icon" onclick="location.href='https://github.com/EllieUM'">
+				</div>
+			</div>
+			<img src="./images/icon/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#about'">
+		</section>
+		<section id="about">
+			<p class="section_text_p1">Get to Know More</p>
+			<h1 class="title">About Me</h1>
+			<div class="section-container">
+				<div class="section_pic-container">
+					<img src="./images/profile2.jpg" alt="Profile picture" class="about-pic">
+				</div>
+				<div class="about-detials-container">
+					<div class="about-containers">
+						<div class="details-container">
+							<img src="./images/icon/education.png" alt="Education icon" class="icon">
+							<h3 class="container-text">In University</h3>
+							<p class="container-text">Computer Science Student (Year 3)<br /><br />Clarinet Player of Symphonic Band and Symphonic Orchestra<br /><br />Publicity of Symphonic Band</p>
+						</div>
+						<div class="details-container">
+							<img src="./images/icon/stem.png" alt="Experience icon" class="icon">
+							<h3 class="container-text">In STEM Organization</h3>
+							<p class="container-text">Teaching Assistant<br /><br />Programming teaching plan helper</p>
+						</div>
+						<div class="details-container">
+							<img src="./images/icon/time.png" alt="Time icon" class="icon">
+							<h3 class="container-text">Off Time</h3>
+							<p class="container-text">Illustrator<br /><br />Japanese Learner<br /><br />Community Volunteer</p>
+						</div>
+					</div>
+					<div class="text-container">
+						<p>I'm a Computer Science student who believes in the intersection of technology, art, and education. My journey is about bridging technical skills with creative expression to build meaningful solutions!</p>
+					</div>
+				</div>
+			</div>
+			<img src="./images/icon/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#skill'">
+		</section>
+		<section id="skill">
+		    <p class="section_text_p1">Explore My</p>
+		    <h1 class="title">Skills</h1>
+		    <div class="experience-details-container">
+		        <div class="about-containers">
+		            <div class="details-container">
+		                <h2 class="experience-sub-title">Software Development</h2>
+		                <div class="article-container">
+		                    <article>
+		                        <img src="./images/icon/python.png" alt="Python icon" class="icon">
+		                        <div>
+		                            <h3>Python</h3>
+		                        </div>
+		                    </article>
+		                    <article>
+		                        <img src="./images/icon/c.png" alt="C icon" class="icon">
+		                        <div>
+		                            <h3>C</h3>
+		                        </div>
+		                    </article>
+		                    <article>
+		                        <img src="./images/icon/java.png" alt="Java icon" class="icon">
+		                        <div>
+		                            <h3>Java</h3>
+		                        </div>
+		                    </article>
+		                    <article>
+		                        <img src="./images/icon/html.png" alt="HTML icon" class="icon">
+		                        <div>
+		                            <h3>HTML</h3>
+		                        </div>
+		                    </article>
+		                    <article>
+		                        <img src="./images/icon/css.png" alt="CSS icon" class="icon">
+		                        <div>
+		                            <h3>CSS</h3>
+		                        </div>
+		                    </article>
+		                    <article>
+		                        <img src="./images/icon/scratch.png" alt="Scratch icon" class="icon">
+		                        <div>
+		                            <h3>Scratch</h3>
+		                        </div>
+		                    </article>
+		                </div>
+		            </div>
+		            <div class="details-container">
+		                <h2 class="experience-sub-title">Hardware Development</h2>
+		                <div class="article-container">
+		                    <article>
+		                        <img src="./images/icon/arduino.png" alt="Arduino icon" class="icon">
+		                        <div>
+		                            <h3>Arduino</h3>
+		                        </div>
+		                    </article>
+		                    <article>
+		                        <img src="./images/icon/microbit.png" alt="Micro Bit icon" class="icon">
+		                        <div>
+		                            <h3>Micro Bit</h3>
+		                        </div>
+		                    </article>
+		                    <article>
+		                        <img src="./images/icon/spike.png" alt="Spike icon" class="icon">
+		                        <div>
+		                            <h3>LEGO Spike</h3>
+		                        </div>
+		                    </article>
+		                    <article>
+		                        <img src="./images/icon/wedo.png" alt="WeDo2.0 icon" class="icon">
+		                        <div>
+		                            <h3>LEGO WeDo 2.0</h3>
+		                        </div>
+		                    </article>
+		                </div>
+		            </div>
+		            <div class="details-container">
+		                <h2 class="experience-sub-title">Digital Design</h2>
+		                <div class="article-container">
+		                    <article>
+		                        <img src="./images/icon/photoshop.png" alt="Photoshop icon" class="icon">
+		                        <div>
+		                            <h3>Photoshop</h3>
+		                        </div>
+		                    </article>
+		                    <article>
+		                        <img src="./images/icon/illustrator.png" alt="Illustrator icon" class="icon">
+		                        <div>
+		                            <h3>Illustrator</h3>
+		                        </div>
+		                    </article>
+		                    <article>
+		                        <img src="./images/icon/after-effects.png" alt="After Effects icon" class="icon">
+		                        <div>
+		                            <h3>After Effects</h3>
+		                        </div>
+		                    </article>
+		                    <article>
+		                        <img src="./images/icon/procreate.png" alt="Procreate icon" class="icon">
+		                        <div>
+		                            <h3>Procreate</h3>
+		                        </div>
+		                    </article>
+		                </div>
+		            </div>
+		        </div>
+		
+		        <!-- Language & Soft Skills 使用 ratio-container 控制寬度 -->
+		        <div class="ratio-container">
+		            <div class="details-container language-card">
+		                <h2 class="experience-sub-title">Language Proficiency</h2>
+		                <div class="article-container">
+		                    <div class="lang-item">
+		                        <span class="lang-name">English</span>
+		                        <span class="lang-level">Intermediate</span>
+		                    </div>
+		                    <div class="lang-item">
+		                        <span class="lang-name">Cantonese</span>
+		                        <span class="lang-level">Native</span>
+		                    </div>
+		                    <div class="lang-item">
+		                        <span class="lang-name">Mandarin</span>
+		                        <span class="lang-level">Fluent</span>
+		                    </div>
+		                    <div class="lang-item">
+		                        <span class="lang-name">Japanese</span>
+		                        <span class="lang-level">Basic</span>
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="details-container soft-card">
+		                <h2 class="experience-sub-title">Soft Skills</h2>
+		                <div class="article-container">
+		                    <article>
+		                        <img src="./images/icon/teaching.png" alt="Teaching icon" class="icon">
+		                        <h3>Teaching & Mentoring</h3>
+		                    </article>
+		                    <article>
+		                        <img src="./images/icon/solving.png" alt="Solving icon" class="icon">
+		                        <h3>Creative Problem-Solving</h3>
+		                    </article>
+		                    <article>
+		                        <img src="./images/icon/thinking.png" alt="Thinking icon" class="icon">
+		                        <h3>Interdisciplinary Thinking</h3>
+		                    </article>
+		                    <article>
+		                        <img src="./images/icon/collaboration.png" alt="Collaboration icon" class="icon">
+		                        <h3>Collaborative Development</h3>
+		                    </article>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		    <img src="./images/icon/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#projects'">
+		</section>
+		<section id="projects">
+    		<p class="section_text_p1">Browse My Recent</p>
+		    <h1 class="title">Projects</h1>
+		    <div class="projects-container">
+		        <div class="projects-row">
+		            <div class="project-card">
+		                <img src="./images/project1.jpg" alt="Project 1" class="project-img">
+		                <h2 class="project-title">John Williams <br> Film Score Concert</h2>
+		                <button class="project-btn" onclick="window.open('https://www.instagram.com/p/DIwMvQDBHW9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==', '_blank')">View on Instagram</button>
+		            </div>
+		            <div class="project-card">
+		                <img src="./images/project2.jpg" alt="Project 2" class="project-img">
+		                <h2 class="project-title">A Simple Dialogue</h2>
+		                <button class="project-btn" onclick="window.open('https://www.instagram.com/p/DC8tmZ3yy7-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==', '_blank')">View on Instagram</button>
+		            </div>
+		        </div>
+		        <div class="projects-row-single">
+		            <div class="project-card">
+		                <img src="./images/project3.png" alt="Project 3" class="project-img">
+		                <h2 class="project-title">Summon the Heroes</h2>
+		                <button class="project-btn" onclick="window.open('https://www.youtube.com/watch?v=ObL9QbLAQnM', '_blank')">Watch on YouTube</button>
+		            </div>
+		        </div>
+		    </div>
+		    <img src="./images/icon/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact'">
+		</section>
+		<section id="contact">
+		    <p class="section_text_p1">Get in Touch</p>
+		    <h1 class="title">Contact Me</h1>
+		    <div class="contact-wrapper">
+		        <div class="contact-info-upper-container">
+		            <div class="contact-info-container">
+		                <img src="./images/icon/mail.png" alt="Email icon" class="icon contact-icon email-icon">
+		                <p><a href="mailto:dc32552@um.edu.mo">dc32552@um.edu.mo</a></p>
+		            </div>
+		            <div class="contact-info-container">
+		                <img src="./images/icon/instagram.png" alt="Instagram icon" class="icon contact-icon">
+		                <p><a href="https://www.instagram.com/cheng_qupz_/" target="_blank">@cheng_qupz_</a></p>
+		            </div>
+		            <div class="contact-info-container">
+		                <img src="./images/icon/X.png" alt="X icon" class="icon contact-icon">
+		                <p><a href="https://x.com/cheng_qupz_" target="_blank">@cheng_qupz_</a></p>
+		            </div>
+		            <div class="contact-info-container">
+		                <img src="./images/icon/github.png" alt="Github icon" class="icon contact-icon">
+		                <p><a href="https://github.com/EllieUM" target="_blank">EllieUM</a></p>
+		            </div>
+		        </div>
+		        <div class="contact-form-container">
+		            <h3>Write me a letter</h3>
+		            <form id="contact-form" action="#" method="post">
+		                <div class="form-group">
+		                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+		                </div>
+		                <div class="form-group">
+		                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+		                </div>
+		                <div class="form-group">
+		                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+		                </div>
+		                <div class="form-group">
+		                    <textarea id="message" name="message" placeholder="Your Message..." required></textarea>
+		                </div>
+		                <button type="submit" class="form-submit-btn">Send Message</button>
+		                <div id="form-message" class="form-message"></div>
+		            </form>
+		        </div>
+		    </div>
+		</section>
+		<footer>
+			<nav>
+				<div class="nav-links-container">
+					<ul class="nav-links">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+			<p>Copyright &#169; 2026 Lam Cheng Io. All Rights Reserved.</p>
+			<p>CISC3003 Web Programming - 2025: DC325523 + Lam Cheng Io</p>
+		</footer>
+		<script>
+		    function toggleMenu() {
+		        const menu = document.querySelector(".menu-links");
+		        const icon = document.querySelector(".hamburger-icon");
+		        menu.classList.toggle("open");
+		        icon.classList.toggle("open");
+		    }
+		</script>
+	</body>
+</html>
