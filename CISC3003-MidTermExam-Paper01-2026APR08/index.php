@@ -4,11 +4,10 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width">
 		
-	<title>Login Form</title>
+	<title>DC325523 Lam Cheng Io</title>
 	<link href="css/styles.css" rel="stylesheet" />
     <script src="js/script.js" defer></script>
 </head>
-
 <body>
 	<div class='container' id='container'>
 		<div class='form-container sign-up-container'>
@@ -25,8 +24,6 @@
 				<button type='submit'>Register</button>
 			</form>
 		</div>
-		
-		
 		<div class='form-container sign-in-container'>
 			<form action='#'>
 				<h1>Login</h1>
@@ -41,9 +38,7 @@
 				<button type='submit'>login</button>
 			</form>
 		</div>
-		
 		<div class='overlay-container'>
-		
 			<div class='overlay'>
 				<div class='overlay-panel overlay-left'>
 					<h1>Hello, Again</h1>
@@ -59,15 +54,10 @@
 					<button class='ghost' id='signUp'>Sign UP</button>
 				</div>
 			</div>
-		
-		</div>
-		
-		
+		</div>	
 	</div>
-
-
-
-
-	
 </body>
+<footer>
+    CISC3003 Web Programming: DC325523 Lam Cheng Io 2026
+</footer>
 </html>
